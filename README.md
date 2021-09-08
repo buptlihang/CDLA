@@ -1,1 +1,3 @@
-# CDLA
+# CDLA: a Chinese document layout analysis (CDLA) dataset
+
+coming soon...
