@@ -10,6 +10,10 @@ CDLA是一个中文文档版面分析数据集，面向中文文献类（论文�
 
 共包含5000张训练集和1000张验证集，分别在train和val目录下。每张图片对应一个同名的标注文件(.json)。
 
+样例展示：
+
+![](https://github.com/buptlihang/CDLA/blob/master/imgs/show.png)
+
 ### 下载链接
 
 - 百度云下载：https://pan.baidu.com/s/1449mhds2ze5JLk-88yKVAA, 提取码: tp0d
