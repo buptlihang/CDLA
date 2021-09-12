@@ -20,3 +20,51 @@ CDLA是一个中文文档版面分析数据集，面向中文文献类（论文�
 
 - Google Drive Download：https://drive.google.com/file/d/14SUsp_TG8OPdK0VthRXBcAbYzIBjSNLm/view?usp=sharing
 ### 标注格式
+
+我们的标注工具是labelme，所以标注格式和labelme格式一致。
+
+shapes字段是一个list，里面有多个dict，每个dict代表一个标注实例。
+
+因为我们的标注是Polygon形式，所以points里的坐标数量可能大于4。
+
+
+```
+{
+  "version":"4.5.6",
+  "flags":{},
+  "shapes":[
+    {
+      "label":"Header",
+      "points":[
+        [
+          152.33333333333334,
+          148.5
+        ],
+        [
+          152.33333333333334,
+          166.5
+        ],
+        [
+          204.33333333333334,
+          166.5
+        ],
+        [
+          204.33333333333334,
+          148.5
+        ]
+      ],
+      "group_id":null,
+      "shape_type":"polygon",
+      "flags":{}
+    },
+    {
+    ...
+    },
+    ...
+  ]
+  "imagePath":"val_0001.jpg",
+  "imageData":null,
+  "imageHeight":1754,
+  "imageWidth":1240
+}
+```
