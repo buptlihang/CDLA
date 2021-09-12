@@ -25,11 +25,11 @@ CDLA是一个中文文档版面分析数据集，面向中文文献类（论文�
 
 "shapes": shapes字段是一个list，里面有多个dict，每个dict代表一个标注实例。
 
-    "labels": 类别。
+  "labels": 类别。
 
-    "points": 实例标注。因为我们的标注是Polygon形式，所以points里的坐标数量可能大于4。
+  "points": 实例标注。因为我们的标注是Polygon形式，所以points里的坐标数量可能大于4。
 
-    "shape_type": "polygon"
+  "shape_type": "polygon"
 
 "imagePath": 图片路径/名
 
