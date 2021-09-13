@@ -166,3 +166,4 @@ python3 labelme2coco.py CDLA_dir/val val_save_path  --labels labels.txt
 
 转换结果保存在train_save_path/val_save_path目录下。
 
+labelme2coco.py取自labelme，更多信息请参考[labelme官方项目](https://github.com/wkentaro/labelme/tree/master/examples/instance_segmentation)
