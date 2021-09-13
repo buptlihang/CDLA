@@ -152,3 +152,17 @@ CDLA是一个中文文档版面分析数据集，面向中文文献类（论文�
 }
 ```
 
+### 转coco格式
+
+执行命令:
+
+```
+# train
+python3 labelme2coco.py CDLA_dir/train train_save_path  --labels labels.txt
+
+# val
+python3 labelme2coco.py CDLA_dir/val val_save_path  --labels labels.txt
+```
+
+转换结果保存在train_save_path/val_save_path目录下。
+
